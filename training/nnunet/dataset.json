@@ -1,0 +1,13 @@
+{
+    "name": "DatasetID_Dendrite",
+    "description": "Binary dendrite classifier from EM TIFF images",
+    "channel_names": {
+        "0": "EM"
+    },
+    "labels": {
+        "background": 0,
+        "dendrite": 1
+    },
+    "numTraining": 100, 
+    "file_ending": ".tif"
+}
