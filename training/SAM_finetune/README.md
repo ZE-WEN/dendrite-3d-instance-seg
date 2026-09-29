@@ -1,7 +1,6 @@
 # SAM fine-tuning
 The SAM fine-tuning code used in this pipeline comes from my earlier work of [DendriteSAM](https://github.com/ZE-WEN/DendriteSAM)
 
-https://github.com/ZE-WEN/DendriteSAM
 
 ## Citation
 
