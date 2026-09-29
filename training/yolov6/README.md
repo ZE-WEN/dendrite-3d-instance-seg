@@ -5,3 +5,4 @@ The detector is trained with the training script from the official [YOLOv6 repos
 ## Citation
 
 If you use our trained weights, please cite our paper.
+TBD
