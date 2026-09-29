@@ -17,7 +17,7 @@ nnUNetv2_plan_and_preprocess -d DATASET_ID --verify_dataset_integrity
 Then I trained for 100 epochs, using the built-in `nnUNetTrainer_100epochs` trainer.
 
 ```bash
-nnUNetv2_train DATASET_ID 2d all -tr nnUNetTrainer_100epochs
+nnUNetv2_train DATASET_ID 2d FOLD -tr nnUNetTrainer_100epochs
 ```
 
 Replace `DATASET_ID` and `FOLD` with your own values. The default training length in nnU-Net is 1000 epochs, so the trainer flag is what sets it to 100.
@@ -37,3 +37,5 @@ Please cite nnU-Net if you use this.
   year={2021}
 }
 ```
+Please cite our paper if you use our trained weights
+TBD
