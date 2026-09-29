@@ -3,7 +3,7 @@ The slice alignment step uses the StackReg plugin from the Biomedical Imaging Gr
 
 ```bibtex
 @article{thevenaz1998pyramid,
-  author  = {Thevenaz, Philippe and Ruttimann, Urs E. and Unser, Michael},
+  author  = {Thevenaz, P. and Ruttimann, U.E. and Unser, M.},
   title   = {A Pyramid Approach to Subpixel Registration Based on Intensity},
   journal = {IEEE Transactions on Image Processing},
   volume  = {7},
