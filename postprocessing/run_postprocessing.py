@@ -11,7 +11,7 @@ from pipeline_utils import (
 )
 
 # change these to your own data
-INPUT_PATH = "/path/to/refined.tif"   # 3D instance labels (Z, Y, X)
+INPUT_PATH = "/path/to/nnunet_refined.tif"   # 3D instance labels (Z, Y, X)
 OUT_DIR = "/path/to/output"
 NAME = "dataset"                      # prefix for the output files
 
