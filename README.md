@@ -13,6 +13,8 @@ A fully automatic pipeline that segments individual dendrites in 3D from serial 
 6. **Clean up in 3D.** Run `postprocessing/run_postprocessing.py`. 
 7. **Evaluate.** If you have annotated slices, run `evaluation/evaluate.py`.
 
+   
+```
 dendrite-3d-instance-seg/
 ├── README.md
 ├── LICENSE.md
