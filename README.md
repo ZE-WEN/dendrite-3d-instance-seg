@@ -3,6 +3,9 @@
 A fully automatic pipeline that segments individual dendrites in 3D from serial block-face electron microscopy (SBF-SEM) stacks. A YOLOv6 detector finds dendrites on every slice. 
 ![Overview of the pipeline](fig1.png)
 
+Qualitative results:
+![Quality](quality_view.png)
+
 > **Follow the steps below in order.** Each step uses the output of the one before it, so skipping or reordering steps will break the pipeline.
 
 1. **Align the stack.** Align the low-resolution stack with the StackReg plugin in Fiji, then use `alignment/inverse_alignment.py` to apply the same shifts to the high-resolution stack. Both resolutions are used later, so they have to stay in the same space.
