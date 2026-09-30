@@ -1,7 +1,7 @@
 
 # RF linker
 
-A random forest that decides whether two 2D instances on neighboring slices belong to the same 3D instance. The pipeline uses it to link segmentations across slices.
+A random forest that decides whether two 2D instances on neighboring slices belong to the same 3D instance. The pipeline uses it to link segmentations across slices. The trained model is available for [DOWNLOAD](https://zenodo.org/records/23054050)
 
 ## Files
 
