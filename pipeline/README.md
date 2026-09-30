@@ -10,7 +10,8 @@ This folder runs the iterative 3D dendrite segmentation on a stack of 2D slices.
 4. **Recover missing objects.** Objects that show up in the neighboring slices but are missing in a slice get new boxes. Those boxes are added to the prompts for the next iteration.
 5. **Repeat** steps 2 to 4. I use three iterations, and boxes are only updated after the first two.
 6. **Link.** After the last iteration, the random forest links the 2D instances across slices into 3D instances, see [`training/rf_linker`](../training/rf_linker).
-
+7. **Filter.** Very small 3D objects are removed from the linked volume. This is a separate script that you run after `main.py`.
+   
 `main.py` runs steps 2 to 6. The nnU-Net refinement is trained separately (see [`training/nnunet`](../training/nnunet)) and is not part of `main.py`.
 
 ## Files
@@ -18,7 +19,7 @@ This folder runs the iterative 3D dendrite segmentation on a stack of 2D slices.
 - `main.py` is the pipeline itself. Paths and parameters are set at the top.
 - `functions.py` holds the helpers for boxes, reading slices and the 2D cleanup.
 - `inference_lib.py` runs SAM with box prompts.
-
+- `filter_small_objects.py` removes 3D objects below a voxel count from the linked volume. Set the paths and `MIN_VOXELS` at the top of the script. The right threshold depends on your resolution, so adjust it for your data. 
 
 ## Acknowledgements
 
