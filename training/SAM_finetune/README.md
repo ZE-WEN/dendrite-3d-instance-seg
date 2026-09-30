@@ -1,7 +1,7 @@
 # SAM fine-tuning
 The SAM fine-tuning code used in this pipeline comes from my earlier work of [DendriteSAM](https://github.com/ZE-WEN/DendriteSAM)
 
-
+Model weights are available for [DOWNLOAD](https://doi.org/10.5281/zenodo.14034030)
 ## Citation
 
 If you use the DendriteSAM weights in your own work, please cite the paper below.
