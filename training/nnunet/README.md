@@ -37,5 +37,4 @@ Please cite nnU-Net if you use this.
   year={2021}
 }
 ```
-Please cite our paper if you use our trained weights
-TBD
+Please cite our paper if you use our trained model [DOWNLOAD](https://zenodo.org/records/23053575)
