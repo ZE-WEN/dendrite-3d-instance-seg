@@ -12,6 +12,7 @@ Segmentation and linking both work slice by slice in z, so their mistakes line u
 2. **Repair in the x view.** The volume is turned so that x becomes the slice axis. For every instance on one slice, the script looks for the pieces that continue it on the next slice. If those pieces together are close, overlap enough and have a good shape, they are merged and take the same id. This runs front to back and then back to front. Then the volume is turned back.
 3. **Merge and clean.** The original volume is kept, and the repair only fills voxels that were background. Small pieces of an instance are then given to the neighboring instance they touch the most.
 4. **Harmonize ids.** A window of 5 slices slides along z. If an instance on the first slice is almost fully covered by one id on a later slice, that id is renamed to match, and empty slices in between are filled.
+5. **NOTE:** You will need to upscale for evaluation
 
 ## Files
 
