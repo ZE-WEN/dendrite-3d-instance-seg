@@ -17,7 +17,7 @@ Qualitative results:
 7. **Evaluate.** If you have annotated slices, run `evaluation/evaluate.py`.
 
 Please check our paper:
-```
+```bibtex
 @misc{zhuo2026fullyautomaticpipeline3d,
       title={A Fully Automatic Pipeline for 3D Dendrite Instance Segmentation in SBF-SEM}, 
       author={Zewen Zhuo and Ilya Belevich and Eija Jokitalo and Alejandra Sierra and Jussi Tohka},
