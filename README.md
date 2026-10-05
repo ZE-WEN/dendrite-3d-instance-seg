@@ -16,7 +16,7 @@ Qualitative results:
 6. **Clean up in 3D.** Run `postprocessing/run_postprocessing.py`. 
 7. **Evaluate.** If you have annotated slices, run `evaluation/evaluate.py`.
 
-Please check our paper:
+Please check our [paper](https://arxiv.org/abs/2610.03332v1):
 ```bibtex
 @misc{zhuo2026fullyautomaticpipeline3d,
       title={A Fully Automatic Pipeline for 3D Dendrite Instance Segmentation in SBF-SEM}, 
