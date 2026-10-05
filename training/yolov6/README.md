@@ -14,4 +14,15 @@ If you use our trained weights [DOWNLOAD](https://zenodo.org/records/23053827), 
   year={2022}
 }
 ```
-and our paper.TBD
+and our paper:
+```bibtex
+@misc{zhuo2026fullyautomaticpipeline3d,
+      title={A Fully Automatic Pipeline for 3D Dendrite Instance Segmentation in SBF-SEM}, 
+      author={Zewen Zhuo and Ilya Belevich and Eija Jokitalo and Alejandra Sierra and Jussi Tohka},
+      year={2026},
+      eprint={2610.03332},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2610.03332}, 
+}
+```
